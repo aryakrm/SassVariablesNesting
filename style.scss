@@ -21,16 +21,18 @@ div {
       text-align: center;
       border: 1px solid $color-tertiary;
     }
-    article:nth-child(odd) {
-      p {
-        color: $color-secondary;
-        padding: 20px;
+    article {
+      &:nth-child(odd) {
+        p {
+          color: $color-secondary;
+          padding: 20px;
+        }
       }
-    }
-    article:nth-child(even) {
-      p {
-        color: $color-primary;
-        padding: 20px;
+      &:nth-child(even) {
+        p {
+          color: $color-primary;
+          padding: 20px;
+        }
       }
     }
   }
